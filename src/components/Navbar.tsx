@@ -10,16 +10,16 @@ const Navbar = () => {
     <nav className="bg-white shadow-md p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* වෙබ් අඩවියේ නම සහ ප්‍රධාන පිටුවට ලින්ක් එක */}
-        <Link href="/" className="text-2xl font-bold text-blue-600">
+        <Link href="/" className="text-2xl font-bold text-green-600">
           ModernShop
         </Link>
         <div className="flex gap-6 items-center">
           {/* ප්‍රධාන පිටුවට ලින්ක් එක */}
-          <Link href="/" className="hover:text-blue-500 transition">
+          <Link href="/" className="hover:text-green-500 transition">
             Home
           </Link>
           {/* කරත්ත පිටුවට ලින්ක් එක */}
-          <Link href="/cart" className="relative hover:text-blue-500 transition">
+          <Link href="/cart" className="relative hover:text-green-500 transition">
             Cart
             {/* කරත්තයේ අයිතම තිබේ නම් ඒවායේ ගණන පෙන්වන ලකුණ */}
             {cartCount > 0 && (

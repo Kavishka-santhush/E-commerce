@@ -14,7 +14,7 @@ const CartPage = () => {
       <div className="text-center py-16">
         <h2 className="text-2xl font-semibold mb-4">Your cart is empty</h2>
         <p className="text-gray-500 mb-8">Go back and add some products to your cart!</p>
-        <Link href="/" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+        <Link href="/" className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">
           Shop Now
         </Link>
       </div>
@@ -74,7 +74,7 @@ const CartPage = () => {
             </button>
             {/* ඇණවුම සම්පූර්ණ කිරීමේ බොත්තම (Checkout) */}
             <button
-              className="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+              className="flex-1 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition"
               onClick={() => alert("Checkout functionality would be implemented here!")}
             >
               Checkout

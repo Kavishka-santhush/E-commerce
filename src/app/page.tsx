@@ -27,7 +27,7 @@ export default function Home() { // ප්‍රධාන පිටුවේ ශ
   if (loading) { // පූරණය වන්නේ නම්
     return ( // ආපසු යැවීම
       <div className="flex justify-center items-center h-64"> {/* මධ්‍යගත කිරීම */}
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-600"></div> {/* කැරකෙන ලකුණ */}
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-green-600"></div> {/* කැරකෙන ලකුණ */}
       </div> // අවසානය
     ); // අවසානය
   } // අවසානය

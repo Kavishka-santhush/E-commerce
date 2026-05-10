@@ -30,11 +30,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <p className="text-sm text-gray-500 mb-2">{product.category}</p>
         <div className="flex justify-between items-center mt-4">
           {/* භාණ්ඩයේ මිල */}
-          <span className="text-xl font-bold text-blue-600">${product.price.toFixed(2)}</span>
+          <span className="text-xl font-bold text-green-600">${product.price.toFixed(2)}</span>
           {/* කරත්තයට එකතු කිරීමේ බොත්තම */}
           <button
             onClick={() => addToCart(product)}
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition active:scale-95"
+            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition active:scale-95"
           >
             Add to Cart
           </button>
